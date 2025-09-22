@@ -167,23 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e295d62bf65a7247bc772a43507fd4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
-    X: -76.93259207581774
-    Y: 42.32504815543338
-    Z: 0
-    SRWkid: 4326
-    SpatialReference:
-      WKID: 4326
-      VerticalWKID: 0
-    version: 1
-  rotation:
-    Heading: 0
-    Pitch: 90
-    Roll: 0
-  surfacePlacementMode: 0
-  surfacePlacementOffset: 0
-  version: 1
-  isInitialized: 1
 --- !u!114 &162218237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,21 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c056ecab070c43bf3f5e9fb15b826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsInitialized: 1
-  m_LocalPosition:
-    x: -8564096.975286664
-    y: 0
-    z: 5209795.128535478
-  m_LocalRotation:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
-  m_LocalScale:
-    x: 1
-    y: 1
-    z: 1
 --- !u!1 &864968193
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,23 +224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e295d62bf65a7247bc772a43507fd4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
-    X: -76.91757224426726
-    Y: 42.325446648700684
-    Z: 0
-    SRWkid: 4326
-    SpatialReference:
-      WKID: 4326
-      VerticalWKID: 0
-    version: 1
-  rotation:
-    Heading: 0
-    Pitch: 90
-    Roll: 0
-  surfacePlacementMode: 0
-  surfacePlacementOffset: 0
-  version: 1
-  isInitialized: 1
 --- !u!114 &864968196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,21 +236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c056ecab070c43bf3f5e9fb15b826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsInitialized: 1
-  m_LocalPosition:
-    x: -8562424.975286664
-    y: 0
-    z: 5209855.128535478
-  m_LocalRotation:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
-  m_LocalScale:
-    x: 1
-    y: 1
-    z: 1
 --- !u!1 &899722311
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +251,7 @@ GameObject:
   - component: {fileID: 899722317}
   - component: {fileID: 899722316}
   - component: {fileID: 899722315}
+  - component: {fileID: 899722319}
   m_Layer: 0
   m_Name: ArcGISCamera
   m_TagString: MainCamera
@@ -408,11 +345,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &899722316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899722311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e295d62bf65a7247bc772a43507fd4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &899722317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899722311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbba49acb848c0448694828560b07fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &899722318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899722311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c056ecab070c43bf3f5e9fb15b826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &899722319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899722311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1917645748}
+  m_Name: 
+  m_EditorClassIdentifier: 
   clearColorMode: 0
-  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
+  backgroundColorHDR:
+    r: 0.025
+    g: 0.07
+    b: 0.19
+    a: 0
   clearDepth: 1
   volumeLayerMask:
-    serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
   antialiasing: 0
@@ -443,7 +431,6 @@ MonoBehaviour:
   customRenderingSettings: 0
   invertFaceCulling: 0
   probeLayerMask:
-    serializedVersion: 2
     m_Bits: 4294967295
   hasPersistentHistory: 0
   screenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -525,81 +512,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &899722316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899722311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e295d62bf65a7247bc772a43507fd4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position:
-    X: -76.92954877160203
-    Y: 42.34164447109609
-    Z: 978.490966796875
-    SRWkid: 4326
-    SpatialReference:
-      WKID: 4326
-      VerticalWKID: 0
-    version: 1
-  rotation:
-    Heading: 123.45403412994416
-    Pitch: 28.122161713708863
-    Roll: 0.03509139287377494
-  surfacePlacementMode: 0
-  surfacePlacementOffset: 0
-  version: 1
-  isInitialized: 1
---- !u!114 &899722317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899722311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bbba49acb848c0448694828560b07fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UpdateClippingPlanes: 1
-  UseCameraViewportProperties: 1
-  verticalFov: 0
-  horizontalFov: 0
-  viewportSizeX: 0
-  viewportSizeY: 0
-  qualityScalingFactor: 1
---- !u!114 &899722318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899722311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c056ecab070c43bf3f5e9fb15b826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsInitialized: 1
-  m_LocalPosition:
-    x: -8563758.196211042
-    y: 978.490966796875
-    z: 5212294.310450764
-  m_LocalRotation:
-    value:
-      x: 0.24375795
-      y: 0.75531644
-      z: -0.45266497
-      w: 0.40641546
-  m_LocalScale:
-    x: 1
-    y: 1
-    z: 1
 --- !u!1 &973411108
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,67 +542,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c703502c1493f5b4eb3e95b2efe0271e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: AAPTxy8BH1VEsoebNVZXo8HurFIZ2YGIeKVjOP7wJjTmS1wYkuAiEY1DOM6RKY3lbHfhBbcoOJ0ZNL6NnNqogSuOg6EhDXviYOtIOoYrHZ7B3XnSfFLq8JGgt0IR0_3tokxfe0O2acIqNeBmcEitVz2xZvsHrsITFcjYSMFUQdyt5OZvhOB1XDZxsZChhwhMi8NjJzukl-q1Kviwl5P5wCUvZgd4TmjQrtyyDwvm_9xr9iU.AT1_3alqZOkJ
-  basemap: https://basemapstyles-api.arcgis.com/arcgis/rest/services/styles/v2/webmaps/arcgis/imagery/standard
-  basemapType: 0
-  basemapAuthentication:
-    ConfigurationIndex: -1
-  basemapAuthenticationType: 1
-  mapElevation:
-    ElevationSources:
-    - Name: Terrain 3D
-      Type: 0
-      Source: https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer
-      IsEnabled: 1
-      Authentication:
-        ConfigurationIndex: -1
-      AuthenticationType: 1
-    ExaggerationFactor: 1
-    MeshModifications:
-      IsEnabled: 1
-      MeshModifications: []
-  enableExtent: 0
-  extent:
-    GeographicCenter:
-      X: 0
-      Y: 0
-      Z: 0
-      SRWkid: 4326
-      SpatialReference:
-        WKID: 4326
-        VerticalWKID: 0
-      version: 1
-    ExtentShape: 2
-    ShapeDimensions:
-      x: 0
-      y: 0
-    UseOriginAsCenter: 0
-  layers: []
-  originPosition:
-    X: -76.9289
-    Y: 42.3408
-    Z: 0
-    SRWkid: 4326
-    SpatialReference:
-      WKID: 4326
-      VerticalWKID: 0
-    version: 1
-  mapType: 1
-  useCustomMapSpatialReference: 0
-  customMapSpatialReference:
-    WKID: 4326
-    VerticalWKID: 0
-  meshCollidersEnabled: 0
-  configurations: []
-  oauthUserConfigurations: []
-  version: 4
-  dataFetchWithSceneView: 1
-  editorModeEnabled: 1
-  rebaseWithSceneView: 0
-  RootChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  isInitialized: 1
 --- !u!114 &973411110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,16 +554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 265b6a392115d8a4aa7154d8c9356e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LocalPosition:
-    x: -8563685.975286664
-    y: 0
-    z: 5212167.12853548
-  m_LocalRotation:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
 --- !u!4 &973411111
 Transform:
   m_ObjectHideFlags: 0
@@ -995,23 +836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e295d62bf65a7247bc772a43507fd4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
-    X: -76.93259207581774
-    Y: 42.34754578902097
-    Z: 0
-    SRWkid: 4326
-    SpatialReference:
-      WKID: 4326
-      VerticalWKID: 0
-    version: 1
-  rotation:
-    Heading: 0
-    Pitch: 90
-    Roll: 0
-  surfacePlacementMode: 0
-  surfacePlacementOffset: 0
-  version: 1
-  isInitialized: 1
 --- !u!114 &1438932597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,21 +848,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c056ecab070c43bf3f5e9fb15b826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsInitialized: 1
-  m_LocalPosition:
-    x: -8564096.975286664
-    y: 0
-    z: 5213183.12853548
-  m_LocalRotation:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
-  m_LocalScale:
-    x: 1
-    y: 1
-    z: 1
 --- !u!1 &1871831186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,23 +893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e295d62bf65a7247bc772a43507fd4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
-    X: -76.91757224426726
-    Y: 42.34754578902097
-    Z: 0
-    SRWkid: 4326
-    SpatialReference:
-      WKID: 4326
-      VerticalWKID: 0
-    version: 1
-  rotation:
-    Heading: 0
-    Pitch: 90
-    Roll: 0
-  surfacePlacementMode: 0
-  surfacePlacementOffset: 0
-  version: 1
-  isInitialized: 1
 --- !u!114 &1871831189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,21 +905,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c056ecab070c43bf3f5e9fb15b826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsInitialized: 1
-  m_LocalPosition:
-    x: -8562424.975286664
-    y: 0
-    z: 5213183.12853548
-  m_LocalRotation:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
-  m_LocalScale:
-    x: 1
-    y: 1
-    z: 1
+--- !u!115 &1917645748
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: HDAdditionalCameraData
+  m_Namespace: UnityEngine.Rendering.HighDefinition
+  m_AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
