@@ -152,7 +152,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 130000
+  m_Intensity: 7635.2573
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 130000
+  m_Intensity: 7635.2573
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -524,8 +524,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.08434081, y: 0.64898384, z: -0.07272905, w: 0.7526068}
+  m_LocalPosition: {x: 3432.2742, y: -2659.652, z: 2995.3982}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -673,18 +673,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position:
-    X: 0
-    Y: -0.00008983152840993817
-    Z: 1
+    X: -74.0240883565387
+    Y: 40.711641527724645
+    Z: 340.347900390625
     SRWkid: 4326
     SpatialReference:
       WKID: 4326
       VerticalWKID: 0
     version: 1
   rotation:
-    Heading: 0
-    Pitch: 90
-    Roll: 0
+    Heading: 81.54335249960043
+    Pitch: 77.21161075283351
+    Roll: 359.9999364058617
   surfacePlacementMode: 0
   surfacePlacementOffset: 0
   version: 1
@@ -732,15 +732,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IsInitialized: 1
   m_LocalPosition:
-    x: 0
-    y: 1
-    z: -10.000000000213335
+    x: -8240323.822286179
+    y: 340.347900390625
+    z: 4969901.445428537
   m_LocalRotation:
     value:
-      x: 0
-      y: 0
-      z: 0
-      w: 1
+      x: -0.08434081
+      y: -0.6489839
+      z: 0.072729036
+      w: -0.7526068
   m_LocalScale:
     x: 1
     y: 1
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: a942e79801777c64c9d9104cc1996839, type: 2}
-  m_StaticLightingSkyUniqueID: 4
+  m_StaticLightingSkyUniqueID: 0
   m_StaticLightingCloudsUniqueID: 0
   m_StaticLightingVolumetricClouds: 0
 --- !u!4 &2013410475
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c703502c1493f5b4eb3e95b2efe0271e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 
+  apiKey: AAPTxy8BH1VEsoebNVZXo8HurFIZ2YGIeKVjOP7wJjTmS1wYkuAiEY1DOM6RKY3lbHfhBbcoOJ0ZNL6NnNqogSuOg6EhDXviYOtIOoYrHZ7B3XnSfFLq8JGgt0IR0_3tokxfe0O2acIqNeBmcEitVz2xZvsHrsITFcjYSMFUQdyt5OZvhOB1XDZxsZChhwhMi8NjJzukl-q1Kviwl5P5wCUvZgd4TmjQrtyyDwvm_9xr9iU.AT1_3alqZOkJ
   basemap: 
   basemapType: 0
   basemapAuthentication:
@@ -930,9 +930,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocalPosition:
-    x: 0
-    y: 0
-    z: -0.0000000007081154551613622
+    x: -8243756.096456101
+    y: 3000
+    z: 4966906.047235179
   m_LocalRotation:
     value:
       x: 0

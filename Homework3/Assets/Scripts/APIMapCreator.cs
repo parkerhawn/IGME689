@@ -209,7 +209,7 @@ public class APIMapCreator : MonoBehaviour
         if (map.MapType == Esri.GameEngine.Map.ArcGISMapType.Local)
         {
             // Set this to true to enable an extent on the map component
-            mapComponent.EnableExtent = true;
+            mapComponent.EnableExtent = false;
 
             var extentCenter = new Esri.GameEngine.Geometry.ArcGISPoint(-74.054921, 40.691242, 3000, ArcGISSpatialReference.WGS84());
             var extent = new ArcGISExtentCircle(extentCenter, 10000);
