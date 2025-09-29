@@ -51,7 +51,7 @@ public class AttributesComponent : MonoBehaviour
 
     private void Awake()
     {
-        sampleMapCreator = GetComponent<APIMapCreator>();
+        sampleMapCreator = GetComponent<APIMapCreator>(); 
 
         if (!sampleMapCreator)
         {
