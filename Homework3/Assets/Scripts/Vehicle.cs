@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.Properties;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.AI;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+
 
 public class Vehicle : MonoBehaviour
 {
@@ -26,14 +29,20 @@ public class Vehicle : MonoBehaviour
     Vector3 rayOrigin;
     RaycastHit terrainHit;
     Vector3 normal;
-    public GameObject arrow;
 
+    
+    public TMP_Text text;
+    public TMP_Text timer;
+    private bool timerRunning = false;
+    private bool lapStarted = false;
+    private float timeLeft = 60.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         model = this.transform.GetChild(0);
-
+        text.enabled = false;
+        timer.enabled = false;
 
     }
 
@@ -123,5 +132,41 @@ public class Vehicle : MonoBehaviour
 
         Gizmos.DrawRay(rayOrigin, Vector3.down * 120f);
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        // check if the player crosses the starting line
+        if (collision.gameObject.CompareTag("startingLine"))
+        {
+            StartCoroutine(StartCollisionTimer());
+        }
+        else if (collision.gameObject.CompareTag("startingLine") && lapStarted == true)
+        {
+            text.text = "You win!";
+            timer.enabled = false;
+        }
+    }
+
+    IEnumerator StartCollisionTimer()
+    {
+        timerRunning = true;
+        Debug.Log("Timer is running");
+
+        lapStarted = true;
+
+        text.enabled = true;
+        timer.enabled = true;
+
+        // count the timer down
+        while (timeLeft > 0)
+        {
+            yield return null;
+            timeLeft -= Time.deltaTime;
+            timer.text = timeLeft.ToString();
+        }
+
+        Debug.Log("Timer finished");
+        timerRunning = false;
+    }
+
 
 }
