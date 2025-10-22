@@ -1,41 +1,50 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 [RequireComponent(typeof(Rigidbody))]
 
 public class CarController : MonoBehaviour
 {
+    public NavMeshAgent agent;
+    public GameObject PATH;
+    private Transform[] PathPoints;
 
-    Rigidbody rb;
+    public float minDistance = 10;
 
-    [SerializeField]
-    private float power = 5;
-    [SerializeField]
-    private float torque = 0.5f;
-    [SerializeField]
-    private float maxSpeed = 5;
+    public int index = 0;
 
-    [SerializeField]
-    private Vector2 movementVector;
-
-    private void Awake()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    public void Move(Vector2 movementInput)
-    {
-        this.movementVector = movementInput;
-    }
-
-    private void FixedUpdate()
-    {
-        if (rb.velocity.magnitude < maxSpeed)
+        agent = GetComponent<NavMeshAgent>();  
+        PathPoints= new Transform[PATH.transform.childCount];
+        for (int i = 0; i < PathPoints.Length; i ++)
         {
-            rb.AddForce(movementVector.y * transform.forward * power);
+            PathPoints[i] = PATH.transform.GetChild(i);
+        }
+    }
+
+    private void Update()
+    {
+        roam();
+    }
+
+    private void roam()
+    {
+        if (Vector3.Distance(transform.position, PathPoints[index].position) < minDistance)
+        {
+            if (index > 0 && index < PathPoints.Length)
+            {
+                index += 1;
+            }
+            else
+            {
+                index = 0;
+            }
         }
 
-        rb.AddTorque(movementVector.x * Vector3.up*torque*movementVector.y);
+        agent.SetDestination(PathPoints[index].position);
     }
 }
