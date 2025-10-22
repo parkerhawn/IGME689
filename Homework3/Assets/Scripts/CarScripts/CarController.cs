@@ -28,14 +28,14 @@ public class CarController : MonoBehaviour
 
     private void Update()
     {
-        roam();
+        Roam();
     }
 
-    private void roam()
+    private void Roam()
     {
         if (Vector3.Distance(transform.position, PathPoints[index].position) < minDistance)
         {
-            if (index > 0 && index < PathPoints.Length)
+            if (index >= 0 && index < PathPoints.Length)
             {
                 index += 1;
             }
