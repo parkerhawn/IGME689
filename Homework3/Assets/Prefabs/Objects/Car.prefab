@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.28982002, z: -0, w: 0.95708114}
   m_LocalPosition: {x: -609.37, y: 9.71, z: -759.4}
-  m_LocalScale: {x: 15.943313, y: 15.943313, z: 15.943313}
+  m_LocalScale: {x: 34.22467, y: 34.22467, z: 34.22467}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -152,7 +152,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
