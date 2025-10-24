@@ -35,7 +35,7 @@ public class CarController : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, PathPoints[index].position) < minDistance)
         {
-            if (index >= 0 && index < PathPoints.Length)
+            if (index + 1 != PathPoints.Length)
             {
                 index += 1;
             }
