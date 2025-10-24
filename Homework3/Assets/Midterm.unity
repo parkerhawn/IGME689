@@ -8585,11 +8585,11 @@ GameObject:
   - component: {fileID: 1037375493}
   m_Layer: 0
   m_Name: CarCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1037375489
 Transform:
   m_ObjectHideFlags: 0
@@ -11460,12 +11460,12 @@ PrefabInstance:
     - target: {fileID: 1057494946909100755, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2716459193614891142, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2792218741957914664, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
@@ -11520,7 +11520,7 @@ PrefabInstance:
     - target: {fileID: 3145262460232535540, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3311311803080157842, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
@@ -11530,7 +11530,7 @@ PrefabInstance:
     - target: {fileID: 4795950753765878369, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7495443279060062592, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
@@ -14975,7 +14975,7 @@ GameObject:
   - component: {fileID: 1823688472}
   m_Layer: 0
   m_Name: ArcGISCamera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15265,7 +15265,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27afbdfc83e47004e95ef7726ed4a9cc, type: 3}
   m_Name: 
