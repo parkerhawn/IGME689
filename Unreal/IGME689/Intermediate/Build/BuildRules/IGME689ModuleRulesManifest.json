@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\IGME689\\Unreal\\IGME689\\Source\\IGME689\\IGME689.Build.cs",
+		"C:\\IGME689\\Unreal\\IGME689\\Source\\IGME689.Target.cs",
+		"C:\\IGME689\\Unreal\\IGME689\\Source\\IGME689Editor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
