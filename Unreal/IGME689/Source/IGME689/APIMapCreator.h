@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "APIMapCreator.generated.h"
 
+class UArcGISMapComponent;
+class UArcGISLocationComponent;
+
 UCLASS()
 class IGME689_API AAPIMapCreator : public AActor
 {
@@ -22,5 +25,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+private:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = true))
+	UArcGISLocationComponent* locationComponent;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, meta = (AllowPrivateAccess = true))
+	UArcGISMapComponent* mapComponent;
+	
 };

@@ -152,7 +152,10 @@
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalActors__/Projects/Project4/A/YG/HLSU99XRZ0OOZCK4MIG5WA.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalActors__/Projects/Project4/C/JY/9LL9RMITZ3XKLVR2XY5RBK.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/Projects/Project4.umap",
-				"C:/IGME689/Unreal/IGME689/Content/Blueprints/bp_APIMapCreator.uasset"
+				"C:/IGME689/Unreal/IGME689/Content/Blueprints/bp_APIMapCreator.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/Input/Input.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/Input/IA_SpaceBar.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/Input/InputMappingContext.uasset"
 			]
 		}
 	]
