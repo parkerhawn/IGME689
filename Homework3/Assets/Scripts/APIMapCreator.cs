@@ -189,7 +189,7 @@ public class APIMapCreator : MonoBehaviour
         map.Layers.Add(layer_3);
 
         var buildingLayer = new Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer("https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Buildings_NewYork_17/SceneServer", "Building Layer", 1.0f, true, "");
-        map.Layers.Add(buildingLayer);
+        //map.Layers.Add(buildingLayer);
 
         // This call invokes an event used by the Sample3DAttributes component
         if (OnSetLayerAttributes != null)
