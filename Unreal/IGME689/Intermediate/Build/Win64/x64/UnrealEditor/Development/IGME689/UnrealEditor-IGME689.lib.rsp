@@ -7,6 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\IGME689Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\UnrealEditor\Development\IGME689\APIMapCreator.gen.cpp.obj"
+"C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\UnrealEditor\Development\IGME689\IGME689.init.gen.cpp.obj"
+"C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\UnrealEditor\Development\IGME689\APIMapCreator.cpp.obj"
 "C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\UnrealEditor\Development\IGME689\IGME689.cpp.obj"
 "C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\UnrealEditor\Development\IGME689\MyClass.cpp.obj"
 "C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\x64\UnrealEditor\Development\IGME689\PerModuleInline.gen.cpp.obj"
