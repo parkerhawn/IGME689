@@ -10753,6 +10753,27 @@
     <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\LightWeightInstancesEditor\Resources\Icon128.png">
       <Filter>Plugins\LightWeightInstancesEditor\Resources</Filter>
     </None>
+    <Filter Include="Plugins\Marketplace">
+      <UniqueIdentifier>{1E520605-3A0C-397B-A124-81C6D67B82FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer">
+      <UniqueIdentifier>{59FD32AB-DA5D-3DEA-A7C8-061416DFFAE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink">
+      <UniqueIdentifier>{8CB001AE-1A12-3C40-855A-F9CF5E994C13}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\RiderLink.uplugin">
+      <Filter>Plugins\Marketplace\Developer\RiderLink</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Resources">
+      <UniqueIdentifier>{4CBF4A6F-98A2-3B63-8EFA-A307FB99C9F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Resources\checksum">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Resources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Resources\Icon128.png">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Resources</Filter>
+    </None>
     <Filter Include="Plugins\Media">
       <UniqueIdentifier>{EFC0DBFF-6FDA-393C-AC79-85C04FCB8860}</UniqueIdentifier>
     </Filter>
@@ -187530,6 +187551,1491 @@
     </Filter>
     <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public\LightWeightInstancesEditor.h">
       <Filter>Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source">
+      <UniqueIdentifier>{60F9C1A5-CB57-38AA-8C9E-6A620B536D2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD">
+      <UniqueIdentifier>{85006A21-9AB8-369A-8C3D-FEE3AB187E4F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\RD.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\RD.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\RD.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src">
+      <UniqueIdentifier>{0AE4D161-BAB8-3999-8E35-CFE561BFE20B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp">
+      <UniqueIdentifier>{D11D452A-747F-3417-B617-7604728D193B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src">
+      <UniqueIdentifier>{D3C2C3F9-0AC7-3202-9BB0-F9857088B589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main">
+      <UniqueIdentifier>{D133A94F-D04E-3047-B95D-7AD4E1BC5CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime">
+      <UniqueIdentifier>{9116EED0-1728-302E-AB18-63879E395AB1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\SequentialLifetimes.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\SequentialLifetimes.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive">
+      <UniqueIdentifier>{5D8FDF8F-A85A-3D1C-803A-4C35DFDCA49B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\Property.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\ViewableList.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\ViewableMap.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\ViewableSet.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base">
+      <UniqueIdentifier>{7127AB6E-EE39-3C94-9B19-63FA76D54590}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\interfaces.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IProperty.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IViewableList.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IViewableMap.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IViewableSet.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std">
+      <UniqueIdentifier>{38788BCE-6AE9-3F4E-9922-925930AEF2B4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\allocator.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\hash.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\list.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\to_string.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\unordered_map.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\unordered_set.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types">
+      <UniqueIdentifier>{65593480-D5F1-3EC3-B6E7-1AF5C2723394}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\DateTime.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\DateTime.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\Void.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\wrapper.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util">
+      <UniqueIdentifier>{19CBB3F1-4AEB-3991-B318-A28B08FB750C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\core_traits.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\core_util.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\enum.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp">
+      <UniqueIdentifier>{4102F409-5CAA-319C-96F4-CCFE640853C3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src">
+      <UniqueIdentifier>{D62844EA-C3D7-3E91-9887-277062F1244A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main">
+      <UniqueIdentifier>{69BFC9AE-8253-3D00-8F4A-6FA3585C018C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base">
+      <UniqueIdentifier>{B5268CDF-72BD-3BE8-9213-42243C1BE443}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IProtocol.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IProtocol.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdReactive.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\ISerializersOwner.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\ISerializersOwner.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IUnknownInstance.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IUnknownInstance.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IWire.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdBindableBase.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdBindableBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdPropertyBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdReactiveBase.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdReactiveBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\WireBase.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\WireBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext">
+      <UniqueIdentifier>{E35951D9-0BB7-30E0-9374-704750A5FCFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\RdExtBase.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\RdExtBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl">
+      <UniqueIdentifier>{9C65922B-F9F6-374D-B09C-3DAD800A320A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdList.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdMap.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdProperty.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdSet.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdSignal.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RName.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RName.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern">
+      <UniqueIdentifier>{E7ABADEB-B737-36C8-8B04-88CA40BD52BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternRoot.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternRoot.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol">
+      <UniqueIdentifier>{6E742D34-2691-3811-8575-1B72E65B9493}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Buffer.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Buffer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Identities.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Identities.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\MessageBroker.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\MessageBroker.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Protocol.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Protocol.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\RdId.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\RdId.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler">
+      <UniqueIdentifier>{2A3A8085-C1CC-3608-BDD5-D23BBAB8F338}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SimpleScheduler.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SimpleScheduler.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SingleThreadScheduler.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SingleThreadScheduler.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SynchronousScheduler.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SynchronousScheduler.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base">
+      <UniqueIdentifier>{053C91D7-013F-3DF5-972D-FF9106468496}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\IScheduler.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\IScheduler.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\SingleThreadSchedulerBase.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\SingleThreadSchedulerBase.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization">
+      <UniqueIdentifier>{8BA39932-66C9-3E1E-AE60-8C5CB4427BB1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\AbstractPolymorphic.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\ArraySerializer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\InternedAnySerializer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\InternedSerializer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\ISerializable.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\ISerializable.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\NullableSerializer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Polymorphic.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Polymorphic.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\RdAny.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\RdAny.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\SerializationCtx.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\SerializationCtx.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Serializers.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Serializers.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task">
+      <UniqueIdentifier>{D2E570CC-2110-3EA9-A438-B23C9DF64262}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdCall.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdEndpoint.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdSymmetricCall.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util">
+      <UniqueIdentifier>{57E882EA-F34E-3798-8B07-610820039B6E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\thread_util.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\thread_util.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire">
+      <UniqueIdentifier>{11CC568B-8131-38AA-A650-DB3280C92BCA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PumpScheduler.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PumpScheduler.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\SocketWire.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\SocketWire.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\WireUtil.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\WireUtil.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_gen_cpp">
+      <UniqueIdentifier>{6D716986-F7D5-3286-A418-D84A9C673E06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src">
+      <UniqueIdentifier>{68ED2308-C251-353E-8467-78C0B60CBF1B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty">
+      <UniqueIdentifier>{3B9CA88A-4BAB-3FF2-BED9-71A8A40B5C21}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\thirdparty.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket">
+      <UniqueIdentifier>{C0BD1FAC-F647-328A-BC53-A229C5807F63}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\README">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src">
+      <UniqueIdentifier>{A4D5FC76-B137-3A1D-B870-4372C25984E3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\PassiveSocket.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\PassiveSocket.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch">
+      <UniqueIdentifier>{C5C90629-356B-34F6-BDDD-9DD147840F99}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\countdownlatch.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\countdownlatch.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\LICENSE">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL">
+      <UniqueIdentifier>{52603786-3A1B-3D96-9CD9-16D577E01109}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL\LICENSE">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL\include">
+      <UniqueIdentifier>{740429D0-BEB4-32C1-86D0-8A3151A8A950}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL\include\ctpl_stl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\CTPL\include</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional">
+      <UniqueIdentifier>{4C86A99A-62CE-3229-B2A8-EAF40C0025AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional\COPYING">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional\tl">
+      <UniqueIdentifier>{23093B0F-1533-3E5C-A173-FA1B9D3B72F5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\optional\tl</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map">
+      <UniqueIdentifier>{AA04481B-916C-384C-AB8A-E0865024D530}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\LICENSE">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include">
+      <UniqueIdentifier>{22D83BB4-11FD-3DDA-AB6F-A9535EA0AE9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl">
+      <UniqueIdentifier>{C631FBF5-378A-3ADC-ADA1-568C021852B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_map.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_set.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog">
+      <UniqueIdentifier>{0C204CED-64C9-3D81-870F-258F9F240DCD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\LICENSE">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake">
+      <UniqueIdentifier>{1336F4AC-6451-31B5-B976-B20DE11A5D8D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\ide.cmake">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\pch.h.in">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\spdlog.pc.in">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\spdlogConfig.cmake.in">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\spdlogCPack.cmake">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\utils.cmake">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\version.rc.in">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include">
+      <UniqueIdentifier>{CD3F7E9F-11CC-328B-AC1E-2308167AB7B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog">
+      <UniqueIdentifier>{240A13A3-9596-369A-8ADF-F718CB49218A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\async.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\async_logger-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\async_logger.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\common-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\common.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\formatter.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fwd.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\logger-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\logger.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\pattern_formatter-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\pattern_formatter.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\spdlog-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\spdlog.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\stopwatch.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\tweakme.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\version.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg">
+      <UniqueIdentifier>{B0B61893-49C6-3DDD-BF97-F3B83B3E60DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\argv.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\env.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\helpers-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\helpers.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\log_levels.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details">
+      <UniqueIdentifier>{B0D2AA4F-C3B0-3813-A150-AF656276543C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\backtracer-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\backtracer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\circular_q.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\console_globals.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\file_helper-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\file_helper.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\fmt_helper.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg_buffer-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg_buffer.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\mpmc_blocking_q.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\null_mutex.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\os-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\os.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\periodic_worker-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\periodic_worker.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\registry-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\registry.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\synchronous_factory.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\tcp_client-windows.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\tcp_client.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\thread_pool-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\thread_pool.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\udp_client-windows.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\udp_client.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\windows_include.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt">
+      <UniqueIdentifier>{C683D3BC-9F10-32EC-8B96-B1A3DB4A8279}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bin_to_hex.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\chrono.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\compile.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\fmt.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\ostr.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\ranges.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\xchar.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled">
+      <UniqueIdentifier>{E646A595-DE49-312F-A034-DF1F2B488161}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\args.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\chrono.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\color.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\compile.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\core.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\fmt.license.rst">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\format-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\format.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\LICENSE.rst">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\locale.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\os.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\ostream.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\posix.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\printf.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\ranges.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\xchar.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks">
+      <UniqueIdentifier>{2F2E0497-9245-3C28-BE82-874081806F29}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\android_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ansicolor_sink-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ansicolor_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\base_sink-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\base_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\basic_file_sink-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\basic_file_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\daily_file_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\dist_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\dup_filter_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\hourly_file_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\mongo_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\msvc_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\null_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ostream_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\qt_sinks.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ringbuffer_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\rotating_file_sink-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\rotating_file_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\sink-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_color_sinks-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_color_sinks.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_sinks-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_sinks.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\syslog_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\systemd_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\tcp_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\udp_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\wincolor_sink-inl.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\wincolor_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\win_eventlog_sink.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\logos">
+      <UniqueIdentifier>{8DCC8D1B-EE9A-35DE-9E9F-CA1DD28934C7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\logos\jetbrains-variant-4.svg">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\logos</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts">
+      <UniqueIdentifier>{6CA4F364-DEA5-3747-81DB-E893B2F42559}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts\extract_version.py">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts\format.sh">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src">
+      <UniqueIdentifier>{20C0B61D-0B3E-3667-93B0-F47CD217A34C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\async.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\cfg.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\color_sinks.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\file_sinks.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\fmt.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\spdlog.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\stdout_sinks.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite">
+      <UniqueIdentifier>{F450CC46-C883-3DF8-972B-6A2FBDF5515B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\LICENSE.txt">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\cmake">
+      <UniqueIdentifier>{1ACE79DB-EB26-38D0-83A1-106EC0687D53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\cmake\string_view-lite-config.cmake.in">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\cmake</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include">
+      <UniqueIdentifier>{7128FD84-AC0F-343F-A0BB-4C8FEAA3471B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd">
+      <UniqueIdentifier>{7968CB8C-2E9B-3FC2-AF1C-82DA00BA8565}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd\string_view.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp">
+      <UniqueIdentifier>{0EF72543-D9DB-338C-9D0D-C89BFC79966E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\LICENSE.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include">
+      <UniqueIdentifier>{8B5CD008-B257-34D8-B2CF-D4C188F8B99C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898">
+      <UniqueIdentifier>{4D50D2CE-7A2C-3B1A-B09F-205E4A57E543}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\cp_utf16.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\cp_utf32.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\cp_utf8.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\cp_utfw.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\utf_config.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\utf_converters.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\utf_selector.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898\utf_sizes.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\utf-cpp\include\ww898</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant">
+      <UniqueIdentifier>{2C3FB9BF-7CEF-3BB6-8CE4-4A6D8D92536B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\CMakeLists.txt">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\LICENSE.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\README.md">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\cmake">
+      <UniqueIdentifier>{5C015C92-10B5-392F-A91D-EF79956B079D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\cmake\mpark_variant-config.cmake.in">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\cmake</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include">
+      <UniqueIdentifier>{2463C6B4-E6B4-3E1B-8678-BAF5E25D1A0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark">
+      <UniqueIdentifier>{78E4E70C-E4A1-3B31-8DF1-42979CF4267F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\variant.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint">
+      <UniqueIdentifier>{681C0678-F41E-3276-8A2F-A35B22DC2490}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\RiderBlueprint.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Private">
+      <UniqueIdentifier>{209E5C23-29F4-3AD5-A137-79CFCF2BBE8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Private\BlueprintProvider.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Private\RiderBlueprint.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Public">
+      <UniqueIdentifier>{58B7A205-65FA-302D-9168-E33267079C18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Public\BlueprintProvider.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Public\RiderBlueprint.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderBlueprint\Public</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport">
+      <UniqueIdentifier>{B43601B6-BBDE-3244-BF0A-2A391E8250F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\RiderDebuggerSupport.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private">
+      <UniqueIdentifier>{2EB7576A-C731-360D-B37D-701865932FA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\BlueprintStackGetter.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\DebugLogger.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\DebugLogger.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\RiderDebuggerSupport.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\RiderDebuggerSupport.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\UnrealFunctions.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\UnrealFunctions.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\WideStringWrapper.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private\WideStringWrapper.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderDebuggerSupport\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl">
+      <UniqueIdentifier>{D4DBFEBA-9BAE-3ECE-9322-53D01C95B01E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\RiderGameControl.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\Private">
+      <UniqueIdentifier>{90495A7F-2AE7-31B0-B1DD-F6E963ACF691}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\Private\RiderGameControl.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\Public">
+      <UniqueIdentifier>{9FCF7CDD-010B-334B-8879-3F508F73195E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\Public\RiderGameControl.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderGameControl\Public</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLC">
+      <UniqueIdentifier>{B0CF5FF6-9B30-3BF5-BB68-B83031ECABE1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLC\RiderLC.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLC</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLC\Private">
+      <UniqueIdentifier>{C7CEB344-89DE-345D-9EE5-5B28DD3ABE65}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLC\Private\RiderLC.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLC\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLC\Private\RiderLC.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLC\Private</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink">
+      <UniqueIdentifier>{DED01717-03F8-3CF7-B62C-712365F1B733}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\RiderLink.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private">
+      <UniqueIdentifier>{3CB56E38-F488-33B2-B783-91B41688CB7C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private\RiderLink.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private\RiderLink.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private\UE4TypesMarshallers.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public">
+      <UniqueIdentifier>{0F3FF44C-A8B7-3DD6-BA60-576F92029721}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model">
+      <UniqueIdentifier>{B1E1FC8E-9A80-328B-B1D8-71C819E86DA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library">
+      <UniqueIdentifier>{4418A14E-0B00-33DF-9E8A-F202C0D53D00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\CMakeLists.txt">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library">
+      <UniqueIdentifier>{B2175F08-C1BA-38A4-BDA9-3DC819CE88B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintReference.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintReference.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ConnectionInfo.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ConnectionInfo.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\LogMessageInfo.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\LogMessageInfo.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\NotificationType.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\NotificationType.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\PlayState.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\PlayState.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestFailed.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestFailed.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase_Unknown.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase_Unknown.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestSucceed.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestSucceed.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStackFrame.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStackFrame.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\StringRange.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\StringRange.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UClass.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UClass.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UE4Library.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UE4Library.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnableToDisplayScriptCallStack.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnableToDisplayScriptCallStack.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnrealLogEvent.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnrealLogEvent.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol">
+      <UniqueIdentifier>{C4E1C670-2003-3686-96EC-5F1211DC45DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\CMakeLists.txt">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\LiveCodingModel">
+      <UniqueIdentifier>{FE4009D5-891A-34F2-9E34-30CCB21602E7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\LiveCodingModel\LiveCodingModel.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\LiveCodingModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\LiveCodingModel\LiveCodingModel.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\LiveCodingModel</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel">
+      <UniqueIdentifier>{EF874C36-F17C-3E1C-B802-7E4404369AB9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel\RdEditorModel.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel\RdEditorModel.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot">
+      <UniqueIdentifier>{6348F980-1D38-3769-ABF3-24D21A21DDB8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot\RdEditorRoot.Pregenerated.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot\RdEditorRoot.Pregenerated.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging">
+      <UniqueIdentifier>{402E7F3E-B11E-353F-BEE8-E6EEE6FA4E1E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\RiderLogging.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private">
+      <UniqueIdentifier>{D7212B24-F73A-334E-BF99-5F7C28C51FBA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private\RiderLogging.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private\RiderLogging.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private\RiderOutputDevice.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private\RiderOutputDevice.hpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderLogging\Private</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo">
+      <UniqueIdentifier>{8DFA81C8-E333-3B1E-93E2-81E8D259D601}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.Build.cs">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.cpp">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.h">
+      <Filter>Plugins\Marketplace\Developer\RiderLink\Source\RiderShaderInfo</Filter>
     </ClCompile>
     <Filter Include="Plugins\Media\AjaMedia\Source">
       <UniqueIdentifier>{DE248E0B-1A51-351E-A15C-AD2EE157DE63}</UniqueIdentifier>
