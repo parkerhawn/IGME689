@@ -23,8 +23,19 @@ struct FProperties
 {
 	GENERATED_BODY();
 public:
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere);
-	TArray<FString> Properties;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
+	int32 objectID;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
+	FString trackName;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
+	FString country;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
+	int32 laps;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
+	int32 raceNumber;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
+	int32 shapeLength;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Geometries");
 	TArray<FGeometries> Geometries;
 };
 
