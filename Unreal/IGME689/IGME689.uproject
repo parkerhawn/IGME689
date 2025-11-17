@@ -24,6 +24,10 @@
 		{
 			"Name": "ArcGISMapsSDK",
 			"Enabled": true
+		},
+		{
+			"Name": "ChaosVehiclesPlugin",
+			"Enabled": true
 		}
 	]
 }

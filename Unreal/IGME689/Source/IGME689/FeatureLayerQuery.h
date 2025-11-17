@@ -26,13 +26,7 @@ public:
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
 	int32 objectID;
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
-	FString trackName;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
-	FString country;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
-	int32 laps;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
-	int32 raceNumber;
+	int32 areaLength;
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Properties");
 	int32 shapeLength;
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Geometries");

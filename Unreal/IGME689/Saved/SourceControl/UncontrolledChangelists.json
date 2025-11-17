@@ -7,6 +7,11 @@
 			"files": [
 				"C:/IGME689/Unreal/IGME689/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/Projects/Project4_HLOD0_Instancing.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/Projects/Project4.umap",
+				"C:/IGME689/Unreal/IGME689/Content/Blueprints/bp_APIMapCreator.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/Input/IA_SpaceBar.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/Input/InputMappingContext.uasset",
+				"C:/IGME689/Unreal/IGME689/Content/VehicleTemplate/Blueprints/BP_AssetGuideline_Chaos.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalActors__/Projects/Project4/A/4L/TBLF1ADIP241Z9CDOFLICJ.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalObjects__/Projects/Project4/5/3L/HSF3STINKX41E5U3UMT6DG.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalObjects__/Projects/Project4/A/0V/TVIW0ZCBBVC42KWCMU039X.uasset",
@@ -151,11 +156,7 @@
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalActors__/Projects/Project4/3/2H/4AMPDAKJ9WH0EGVIMUR74J.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalActors__/Projects/Project4/A/YG/HLSU99XRZ0OOZCK4MIG5WA.uasset",
 				"C:/IGME689/Unreal/IGME689/Content/__ExternalActors__/Projects/Project4/C/JY/9LL9RMITZ3XKLVR2XY5RBK.uasset",
-				"C:/IGME689/Unreal/IGME689/Content/Projects/Project4.umap",
-				"C:/IGME689/Unreal/IGME689/Content/Blueprints/bp_APIMapCreator.uasset",
-				"C:/IGME689/Unreal/IGME689/Content/Input/Input.uasset",
-				"C:/IGME689/Unreal/IGME689/Content/Input/IA_SpaceBar.uasset",
-				"C:/IGME689/Unreal/IGME689/Content/Input/InputMappingContext.uasset"
+				"C:/IGME689/Unreal/IGME689/Content/Input/Input.uasset"
 			]
 		}
 	]

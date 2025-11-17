@@ -49,17 +49,11 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 			FProperties currentFeature;
 			auto coordinates = feature->AsObject()->GetObjectField(TEXT("geometry"))->GetArrayField(TEXT("coordinates"));
 			auto objectID = feature->AsObject()->GetObjectField(TEXT("properties"))->GetIntegerField("OBJECTID");
-			auto trackName = feature->AsObject()->GetObjectField(TEXT("properties"))->GetStringField("TrackName");
-			auto country = feature->AsObject()->GetObjectField(TEXT("properties"))->GetStringField("Country");
-			auto laps = feature->AsObject()->GetObjectField(TEXT("properties"))->GetIntegerField("Laps");
-			auto raceNumber = feature->AsObject()->GetObjectField(TEXT("properties"))->GetIntegerField("RaceNumber");
+			auto areaLenght = feature->AsObject()->GetObjectField(TEXT("properties"))->GetNumberField("Shape__Area");
 			auto shapeLength = feature->AsObject()->GetObjectField(TEXT("properties"))->GetIntegerField("Shape__Length");
 			
 			currentFeature.objectID = objectID;
-			currentFeature.trackName = trackName;
-			currentFeature.country = country;
-			currentFeature.laps = laps;
-			currentFeature.raceNumber = raceNumber;
+			currentFeature.areaLength = areaLenght;
 			currentFeature.shapeLength = shapeLength;
 			UE_LOG(LogTemp, Warning, TEXT("%i"), coordinates.Num());
 			// loop through each geometry value
