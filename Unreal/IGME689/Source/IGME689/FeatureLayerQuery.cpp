@@ -55,15 +55,32 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 			currentFeature.objectID = objectID;
 			currentFeature.areaLength = areaLenght;
 			currentFeature.shapeLength = shapeLength;
+			
 			UE_LOG(LogTemp, Warning, TEXT("%i"), coordinates.Num());
+			
 			// loop through each geometry value
 			for (int i = 0; i< coordinates.Num(); i++)
 			{
 				auto thisGeometry = coordinates[i]->AsArray();
 				FGeometries geometry;
-				geometry.geometry.Add(thisGeometry[0,i]->AsNumber());
-				geometry.geometry.Add(thisGeometry[1,i]->AsNumber());
-				currentFeature.Geometries.Add(geometry);
+				UE_LOG(LogTemp, Warning, TEXT("%i"), thisGeometry.Num());
+				
+				// loop through each struct of coordinates
+				for (int j = 0; j < thisGeometry.Num()-1; j++)
+				{
+					auto coordinatesArray = thisGeometry[j]->AsArray();
+					for (int k = 0; k < 1; k ++)
+					{
+						float xCoord = coordinatesArray[k]->AsNumber();
+						float yCoord = coordinatesArray[k+1]->AsNumber();
+						UE_LOG(LogTemp, Warning, TEXT("%f"), xCoord);
+						UE_LOG(LogTemp, Warning, TEXT("%f"), yCoord);
+						geometry.geometry.Add(xCoord);
+						geometry.geometry.Add(yCoord);
+					}
+					
+					currentFeature.Geometries.Add(geometry);
+				}
 			}
 
 			features.Add(currentFeature);
