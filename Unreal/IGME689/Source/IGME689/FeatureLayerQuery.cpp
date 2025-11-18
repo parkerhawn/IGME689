@@ -6,7 +6,7 @@
 #include "ArcGISMapsSDK/API/GameEngine/Layers/ArcGIS3DObjectSceneLayer.h"
 #include "ArcGISMapsSDK/Components/ArcGISLocationComponent.h"
 using namespace Esri::GameEngine::Geometry;
-#include <rapidjson/reader.h>
+#include <rapidjson/reader.h> 
 
 // Sets default values
 AFeatureLayerQuery::AFeatureLayerQuery()

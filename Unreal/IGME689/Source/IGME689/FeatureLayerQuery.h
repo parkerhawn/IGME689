@@ -65,5 +65,5 @@ public:
 	
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	FString webLink = "";
+	FString webLink = "https://services.arcgis.com/vQ8kO5zdqETeirEL/arcgis/rest/services/Indianapolis_Motor_Speedway__GMR_GP__Indy_500__Big_Machine_GP__WFL1/FeatureServer/0/query?f=geojson&where=1=1&outfields=*";
 };
