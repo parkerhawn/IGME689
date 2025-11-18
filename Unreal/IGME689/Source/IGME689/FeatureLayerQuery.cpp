@@ -3,6 +3,9 @@
 
 #include "FeatureLayerQuery.h"
 
+#include "ArcGISMapsSDK/API/GameEngine/Layers/ArcGIS3DObjectSceneLayer.h"
+#include "ArcGISMapsSDK/Components/ArcGISLocationComponent.h"
+using namespace Esri::GameEngine::Geometry;
 #include <rapidjson/reader.h>
 
 // Sets default values
@@ -10,6 +13,7 @@ AFeatureLayerQuery::AFeatureLayerQuery()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	
 }
 
 // Called when the game starts or when spawned
@@ -71,6 +75,8 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 					
 					currentCoord.geometry.Add(xCoord);
                     currentCoord.geometry.Add(yCoord);
+					UnrealCoordinates.Add(FVector(xCoord, yCoord,1000.0f));
+					UE_LOG(LogTemp, Warning, TEXT("%i"), UnrealCoordinates.Num());
 					currentFeature.Geometries.Add(currentCoord);
 				}
 			}

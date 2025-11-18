@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Http.h"
+
 #include "FeatureLayerQuery.generated.h"
 
 // Geometry struct
@@ -15,6 +16,8 @@ struct FGeometries
 public:
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	TArray<float> geometry;
+	
+	
 };
 
 // Property Struct
@@ -35,7 +38,7 @@ public:
 };
 
 // Feature Layer Query Class
-UCLASS()
+UCLASS(Blueprintable)
 class IGME689_API AFeatureLayerQuery : public AActor
 {
 	GENERATED_BODY()
@@ -57,6 +60,8 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	TArray<FProperties> features;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
+	TArray<FVector> UnrealCoordinates;
 	
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
