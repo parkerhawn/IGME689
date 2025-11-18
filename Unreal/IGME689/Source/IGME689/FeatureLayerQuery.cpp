@@ -69,18 +69,16 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 				for (int j = 0; j < thisGeometry.Num()-1; j++)
 				{
 					auto coordinatesArray = thisGeometry[j]->AsArray();
-					for (int k = 0; k < 1; k ++)
-					{
-						float xCoord = coordinatesArray[k]->AsNumber();
-						float yCoord = coordinatesArray[k+1]->AsNumber();
-						UE_LOG(LogTemp, Warning, TEXT("%f"), xCoord);
-						UE_LOG(LogTemp, Warning, TEXT("%f"), yCoord);
-						geometry.geometry.Add(xCoord);
-						geometry.geometry.Add(yCoord);
-					}
+					FGeometries currentCoord;
+					float xCoord = coordinatesArray[0]->AsNumber();
+                   	float yCoord = coordinatesArray[1]->AsNumber();
 					
-					currentFeature.Geometries.Add(geometry);
+					currentCoord.geometry.Add(xCoord);
+                    currentCoord.geometry.Add(yCoord);
+					currentFeature.Geometries.Add(currentCoord);
+					
 				}
+				
 			}
 
 			features.Add(currentFeature);
