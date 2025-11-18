@@ -31,6 +31,7 @@ public:
 	int32 shapeLength;
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Geometries");
 	TArray<FGeometries> Geometries;
+	
 };
 
 // Feature Layer Query Class

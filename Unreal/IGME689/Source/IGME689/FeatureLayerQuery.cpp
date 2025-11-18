@@ -10,7 +10,6 @@ AFeatureLayerQuery::AFeatureLayerQuery()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
@@ -34,13 +33,12 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 	{
 		return;
 	}
-
+	
+	
 	TSharedPtr<FJsonObject> responseObject;
 	const auto ResponseBody = Response->GetContentAsString();
 	auto Reader = TJsonReaderFactory<>::Create(ResponseBody);
 	
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *ResponseBody);
-
 	if (FJsonSerializer::Deserialize(Reader, responseObject))
 	{
 		auto featureObjects = responseObject->GetArrayField(TEXT("features"));
@@ -56,18 +54,16 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 			currentFeature.areaLength = areaLenght;
 			currentFeature.shapeLength = shapeLength;
 			
-			UE_LOG(LogTemp, Warning, TEXT("%i"), coordinates.Num());
-			
 			// loop through each geometry value
 			for (int i = 0; i< coordinates.Num(); i++)
 			{
 				auto thisGeometry = coordinates[i]->AsArray();
 				FGeometries geometry;
-				UE_LOG(LogTemp, Warning, TEXT("%i"), thisGeometry.Num());
 				
 				// loop through each struct of coordinates
 				for (int j = 0; j < thisGeometry.Num()-1; j++)
 				{
+					// assign the coordinates to a new geometries objects that resets every loop
 					auto coordinatesArray = thisGeometry[j]->AsArray();
 					FGeometries currentCoord;
 					float xCoord = coordinatesArray[0]->AsNumber();
@@ -76,16 +72,11 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 					currentCoord.geometry.Add(xCoord);
                     currentCoord.geometry.Add(yCoord);
 					currentFeature.Geometries.Add(currentCoord);
-					
 				}
-				
 			}
-
 			features.Add(currentFeature);
 		}
 	}
-
-	
 }
 
 void AFeatureLayerQuery::ProcessRequest()
