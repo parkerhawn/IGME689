@@ -76,7 +76,7 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 					currentCoord.geometry.Add(xCoord);
                     currentCoord.geometry.Add(yCoord);
 					UnrealCoordinates.Add(FVector(xCoord, yCoord,1000.0f));
-					UE_LOG(LogTemp, Warning, TEXT("%i"), UnrealCoordinates.Num());
+					
 					currentFeature.Geometries.Add(currentCoord);
 				}
 			}
