@@ -62,6 +62,8 @@ public:
 	TArray<FProperties> features;
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	TArray<FVector> UnrealCoordinates;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
+	TSubclassOf<UBlueprint> splineGenerator;
 	
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))

@@ -5,6 +5,7 @@
 
 #include "ArcGISMapsSDK/API/GameEngine/Layers/ArcGIS3DObjectSceneLayer.h"
 #include "ArcGISMapsSDK/Components/ArcGISLocationComponent.h"
+#include "Kismet/KismetSystemLibrary.h"
 using namespace Esri::GameEngine::Geometry;
 #include <rapidjson/reader.h> 
 
@@ -81,8 +82,17 @@ void AFeatureLayerQuery::OnResponseReceived(FHttpRequestPtr Request, FHttpRespon
 				}
 			}
 			features.Add(currentFeature);
+			
 		}
 	}
+	//
+	// FVector location = FVector::ZeroVector;
+	// FRotator rotation = FRotator::ZeroRotator;
+	// FActorSpawnParameters SpawnParams;
+	// GetWorld()->SpawnActor<UBlueprint>(splineGenerator, location, rotation, SpawnParams);
+
+	
+	
 }
 
 void AFeatureLayerQuery::ProcessRequest()
