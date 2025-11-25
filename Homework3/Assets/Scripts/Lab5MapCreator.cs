@@ -23,7 +23,7 @@ public class Lab_Dev_Scene : MonoBehaviour
     //camera 35.76692775839835, -82.18222837601473
     //35.762863326496394, -82.17781926983247
     //35.76083662471189, -82.16942600790118
-    private ArcGISPoint geographicCoordinates = new ArcGISPoint(-82.18101, 35.76446, 850, ArcGISSpatialReference.WGS84());
+    private ArcGISPoint geographicCoordinates = new ArcGISPoint(-82.18101, 35.76446, 0, ArcGISSpatialReference.WGS84());
 
     private ArcGISCameraComponent cameraComponent;
 
@@ -66,8 +66,8 @@ public class Lab_Dev_Scene : MonoBehaviour
 
         arcGISMap.Elevation = new Esri.GameEngine.Map.ArcGISMapElevation(new Esri.GameEngine.Elevation.ArcGISImageElevationSource("https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer", "Terrain 3D", ""));
 
-        var layer_1 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://www.arcgis.com/home/item.html?id=b3a3743cda50473ba5df14eaf14e5d18", "MyLayer_1", 1.0f, true, "");
-        arcGISMap.Layers.Add(layer_1);
+        //var layer_1 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://www.arcgis.com/home/item.html?id=b3a3743cda50473ba5df14eaf14e5d18", "MyLayer_1", 1.0f, true, "");
+        //arcGISMap.Layers.Add(layer_1);
 
         //var layer_2 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://www.arcgis.com/home/item.html?id=1c28f1944276445a99f5b554c3c07771", "MyLayer_2", 1.0f, true, "");
         // arcGISMap.Layers.Add(layer_2);

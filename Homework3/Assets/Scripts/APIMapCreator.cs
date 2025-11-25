@@ -43,7 +43,7 @@ public class APIMapCreator : MonoBehaviour
     private ArcGISCameraComponent cameraComponent;
     public string APIKey = "AAPTxy8BH1VEsoebNVZXo8HurFIZ2YGIeKVjOP7wJjTmS1wYkuAiEY1DOM6RKY3lbHfhBbcoOJ0ZNL6NnNqogSuOg6EhDXviYOtIOoYrHZ7B3XnSfFLq8JGgt0IR0_3tokxfe0O2acIqNeBmcEitVz2xZvsHrsITFcjYSMFUQdyt5OZvhOB1XDZxsZChhwhMi8NjJzukl-q1Kviwl5P5wCUvZgd4TmjQrtyyDwvm_9xr9iU.AT1_3alqZOkJ";
 
-    private ArcGISPoint geographicCoordinates = new ArcGISPoint(-74.054921, 40.691242, 3000, ArcGISSpatialReference.WGS84());
+    private ArcGISPoint geographicCoordinates = new ArcGISPoint(-82.18101, 35.76446, 0, ArcGISSpatialReference.WGS84());
 
     // This sample event is used in conjunction with a Sample3DAttributes component
     // It passes a layer to a listener to process its attributes
@@ -178,41 +178,41 @@ public class APIMapCreator : MonoBehaviour
         // Create the Elevation
         map.Elevation = new Esri.GameEngine.Map.ArcGISMapElevation(new Esri.GameEngine.Elevation.ArcGISImageElevationSource("https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer", "Terrain 3D", ""));
 
-        // Create ArcGIS layers and add them to the map
-        var layer_1 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/UrbanObservatory_NYC_TransitFrequency/MapServer", "MyLayer_1", 1.0f, true, "");
-        map.Layers.Add(layer_1);
+        //// Create ArcGIS layers and add them to the map
+        //var layer_1 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/UrbanObservatory_NYC_TransitFrequency/MapServer", "MyLayer_1", 1.0f, true, "");
+        //map.Layers.Add(layer_1);
 
-        var layer_2 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/New_York_Industrial/MapServer", "MyLayer_2", 1.0f, true, "");
-        map.Layers.Add(layer_2);
+        //var layer_2 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/New_York_Industrial/MapServer", "MyLayer_2", 1.0f, true, "");
+        //map.Layers.Add(layer_2);
 
-        var layer_3 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/4yjifSiIG17X0gW4/arcgis/rest/services/NewYorkCity_PopDensity/MapServer", "MyLayer_3", 1.0f, true, "");
-        map.Layers.Add(layer_3);
+        //var layer_3 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/4yjifSiIG17X0gW4/arcgis/rest/services/NewYorkCity_PopDensity/MapServer", "MyLayer_3", 1.0f, true, "");
+        //map.Layers.Add(layer_3);
 
-        var buildingLayer = new Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer("https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Buildings_NewYork_17/SceneServer", "Building Layer", 1.0f, true, "");
-        //map.Layers.Add(buildingLayer);
+        //var buildingLayer = new Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer("https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Buildings_NewYork_17/SceneServer", "Building Layer", 1.0f, true, "");
+        ////map.Layers.Add(buildingLayer);
 
         // This call invokes an event used by the Sample3DAttributes component
-        if (OnSetLayerAttributes != null)
-        {
-            OnSetLayerAttributes(buildingLayer);
-        }
+        //if (OnSetLayerAttributes != null)
+        //{
+        //    OnSetLayerAttributes(buildingLayer);
+        //}
 
-        // Remove a layer
-        map.Layers.Remove(map.Layers.IndexOf(layer_3));
+        //// Remove a layer
+        //map.Layers.Remove(map.Layers.IndexOf(layer_3));
 
-        // You can update an ArcGISLayer's name, opacity, and visibility without needing to rebuild the map
-        // Update properties
-        layer_1.Opacity = 0.9f;
-        layer_2.Opacity = 0.6f;
+        //// You can update an ArcGISLayer's name, opacity, and visibility without needing to rebuild the map
+        //// Update properties
+        //layer_1.Opacity = 0.9f;
+        //layer_2.Opacity = 0.6f;
 
         // If the map type is local, we will create a circle extent and attach it to the map's clipping area
         if (map.MapType == Esri.GameEngine.Map.ArcGISMapType.Local)
         {
             // Set this to true to enable an extent on the map component
-            mapComponent.EnableExtent = false;
+            mapComponent.EnableExtent = true;
 
             var extentCenter = new Esri.GameEngine.Geometry.ArcGISPoint(-74.054921, 40.691242, 3000, ArcGISSpatialReference.WGS84());
-            var extent = new ArcGISExtentCircle(extentCenter, 10000);
+            var extent = new ArcGISExtentRectangle(extentCenter, 1000, 1000);
 
             try
             {
