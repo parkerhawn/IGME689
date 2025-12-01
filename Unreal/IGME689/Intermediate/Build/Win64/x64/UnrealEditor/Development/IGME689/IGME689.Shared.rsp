@@ -294,6 +294,9 @@
 /I "..\Plugins\Runtime\GeoReferencing\Source\GeoReferencing\Public"
 /I "C:\IGME689\Unreal\IGME689\Intermediate\Build\Win64\UnrealEditor\Inc\IGME689\UHT"
 /I "C:\IGME689\Unreal\IGME689\Source"
+/I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
+/I "..\Plugins\EnhancedInput\Source"
+/I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"
 /external:W0
 /external:I "ThirdParty\GuidelinesSupportLibrary\GSL-1144\include"
 /external:I "ThirdParty\RapidJSON\1.1.0"
